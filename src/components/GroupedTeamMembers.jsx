@@ -46,7 +46,7 @@ const GroupedTeamMembers = () => {
               <hr />
               {item.members.map((member) => {
                 return (
-                  <div key={member.id} className="mt-2">
+                  <div key={member.id} className="mt-2 bg-light">
                     <h5 className="card-title mt-2">
                       <span className="text-dark"><b>Full Name:</b> {member.fullName}</span>
                     </h5>
